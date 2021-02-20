@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WebSuite" verbose="1" parallel="classes" thread-count="2">
+    <test name="Testes de Web">
+        <classes>
+            <class name="br.com.datum.testcases.BuyProductTest" />
+            <class name="br.com.datum.testcases.ReqResTest" />
+        </classes>
+    </test>
+</suite>
