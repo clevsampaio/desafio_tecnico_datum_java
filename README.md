@@ -31,5 +31,7 @@ Observações:
   
 - Para execução por linha de comandos utilizando `mvn test` é necessário haver instalado em sua máquina o [Apache Maven](https://maven.apache.org/download.cgi).
 
+- Necessário haver o plugins [Lombok](https://plugins.jetbrains.com/plugin/6317-lombok) instalada em sua IDE para tal funcionamento.
+
 Para executar em uma máquina remota utilizando [zalenium](https://opensource.zalando.com/zalenium/),
 basta utilizar o comando `mvn test -Dtype=remote -Dhub=http://localhost:4444/wd/hub` (ou a url definida pelo serviço).
